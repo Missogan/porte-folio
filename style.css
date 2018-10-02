@@ -1,0 +1,216 @@
+nav{
+    display: none;
+}
+ul{
+    list-style: none;
+}
+headerUp {
+    display: flex;
+    height: 130px;
+    width: 50%;
+    position: fixed;
+    margin-top: -40%;
+    margin-left: 19%;
+}
+.logo{
+    height: 128px;
+    width: 128px;
+    background-image: url("image/logo.jpg");
+    border: solid black 3px;
+    border-radius: 24% 24% 22% 22%;
+    background-position: -1px -1px;
+    position : relative;
+}
+.videoPane{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.videoPane_video{
+    width: 100%;
+}
+headerUp ul{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 0;
+    margin-left: -3%;
+    margin-top: 0%;
+    border: solid black 3px;
+    height: 48%;
+    background-color: #cfd0d2;
+    border-right-color: #cfd0d2
+}
+.Accueil {
+    padding-left: 12%;
+    width: 18%;
+}
+.mon_compte a h4 {
+    width: 40%;
+    margin-left: 29%;
+}
+.tous_les_film a h4 {
+    width: 45%;
+    margin-left: 29%;
+}
+headerUp ul li {
+    width: 36.33%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+headerUp ul ul{
+    display: none;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 0px;
+    line-height: 175%;
+    height: 167%;
+    width: 98%;
+}
+.mon_compte:hover ul {
+    display:block;
+}
+.mon_compte ul {
+    position: fixed;
+    height: 19%;
+    margin-left: 0%;
+    width: 15.2%;
+    border-right: solid black 3px;
+}
+.mon_compte ul li {
+    height: 32%;
+    width: 100%;
+}
+.border {
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+}
+article, .a_laffiche, Prochainement, Les_succes, Nos_coup_de_coeur {
+    display: flex;
+    flex-direction: column;
+}
+.film {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("image/fondfilm.jpeg");
+    background-position-y: 51%;
+    width: 75%;
+    margin-left: 12.5%;
+}
+.film1 {
+    display: flex;
+    justify-content: space-around;
+}
+.a_laffiche {
+    width: 100%;
+    position: inherit;
+    margin-top: -19%;
+}
+.a_laffiche h4 {
+    color: white;
+}
+.Prochainement h4, Les_succes h4, Nos_coup_de_coeur h4 {
+    color: black;
+    margin-left: 17%;
+    background-color: #cfd0d2;
+    width: 12%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 48px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1%;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("image/fondfond.jpeg");
+    color: white;
+}
+li:hover {
+    background-color: dimgray;
+}
+input {
+	outline: none;
+}
+input[type=text] {
+    -webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=text] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=text]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+/* form_search*/
+#form_search input[type=text] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+    cursor: pointer;
+    margin-left: 3%;
+    margin-top: 6%;
+}
+#form_search input[type=text]:hover {
+	background-color: #fff;
+}
+#form_search input[type=text]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#form_search input:-moz-placeholder {
+	color: transparent;
+}
+#form_search input::-webkit-input-placeholder {
+	color: transparent;
+}
+.div_search {
+    position: fixed;
+    margin-top: -40%;
+    background-color: #cfd0d2;
+    margin-left: 68.8%;
+    width: 10%;
+    height: 63px;
+    border: solid black 3px;
+}
+.div_search h3 {
+    margin-top: 0%;
+}
+.bloc {
+    background-color: gray;
+    width: 50%;
+    margin-left: 25%;
+}
